@@ -687,11 +687,23 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:relative {
+    position: relative;
+  }
+
+  .md\:top-0 {
+    top: 0px;
+  }
+
   .md\:hidden {
     display: none;
   }
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:pb-0 {
+    padding-bottom: 0px;
   }
 }
