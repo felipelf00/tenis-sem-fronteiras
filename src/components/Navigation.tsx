@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from "react";
 import NavLinks from "./NavLinks";
-// import { Twirl as Hamburger } from "hamburger-react";
 import Burger from "./Burger";
 import { useClickAway } from "react-use";
 
@@ -15,20 +14,10 @@ const Navigation = () => {
     setIsOpen(!isOpen);
   };
 
-  // useClickAway(navRef, (e) => {
-  //   if (
-  //     !navRef.current?.contains(e.target as Node) &&
-  //     !hamburgerRef.current?.contains(e.target as Node)
-  //   ) {
-  //     setIsOpen(false);
-  //   }
-  // });
   useClickAway(navRef, (e): void => {
     const clickedOutsideNav = !navRef.current?.contains(e.target as Node);
-
-    console.log(hamburgerRef);
-
     const clickedOnHamburger = hamburgerRef.current?.contains(e.target as Node);
+
     if (clickedOutsideNav && !clickedOnHamburger) {
       setIsOpen(false);
     }
@@ -47,7 +36,7 @@ const Navigation = () => {
   //prettier-ignore
   return (
     <div>
-      {isMobile && <Burger ref={hamburgerRef} toggleMenu={toggleMenu}/>}
+      {isMobile && <Burger ref={hamburgerRef} toggleMenu={toggleMenu} isOpen={isOpen}/>}
 
       {isMobile ? (isOpen && <NavLinks ref={navRef} />) : <NavLinks />}
     </div>

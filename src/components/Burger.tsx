@@ -3,15 +3,16 @@ import React from "react";
 type BurgerProps = {
   toggleMenu?: () => void;
   ref?: React.Ref<HTMLButtonElement>;
+  isOpen: boolean;
 };
 
 const Burger: React.FC<BurgerProps> = React.forwardRef(
-  ({ toggleMenu }, ref) => {
+  ({ toggleMenu, isOpen }, ref) => {
     return (
       <button
         ref={ref}
         type="button"
-        className="text-white md:hidden"
+        className={`${isOpen ? "text-white" : "text-gray-400"} md:hidden`}
         onClick={toggleMenu}
       >
         <svg
