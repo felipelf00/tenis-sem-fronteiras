@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface ImageObject {
   url: string;
@@ -21,6 +21,13 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
   };
+
+  useEffect(() => {
+    const interval = setInterval(nextSlide, 5000);
+
+    return () => clearInterval(interval);
+    // eslint-disable-next-line
+  }, [currentIndex]);
 
   return (
     <div className="w-full h-full max-w-5xl m-auto relative">

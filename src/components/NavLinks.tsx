@@ -77,22 +77,37 @@ const NavLinks: React.ForwardRefRenderFunction<
         className="fixed left-0 top-20 md:relative md:top-0 flex flex-col md:flex-row gap-5 pb-3 md:pb-0 w-full text-center text-white font-bold bg-slate-700 z-20"
       >
         <li>
-          <Link to={"/"}>Home</Link>
+          <Link to={"/"} className="hover:text-yellow-tsf transition">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to={"/quem"}>Quem somos</Link>
+          <Link to={"/quem"} className="hover:text-yellow-tsf transition">
+            Quem somos
+          </Link>
         </li>
         <li>
-          <Link to={"/institucional"}>Institucional</Link>
+          <Link to={"/participar"} className="hover:text-yellow-tsf transition">
+            Como participar
+          </Link>
         </li>
         <li>
-          <Link to={"/ajudar"}>Como ajudar</Link>
+          <Link to={"/ajudar"} className="hover:text-yellow-tsf transition">
+            Como ajudar
+          </Link>
         </li>
         <li>
-          <Link to={"/patrocinadores"}>Patrocinadores</Link>
+          <Link
+            to={"/patrocinadores"}
+            className="hover:text-yellow-tsf transition"
+          >
+            Patrocinadores
+          </Link>
         </li>
         <li>
-          <Link to={"/contato"}>Contato</Link>
+          <Link to={"/contato"} className="hover:text-yellow-tsf transition">
+            Contato
+          </Link>
         </li>
       </ul>
     </motion.div>

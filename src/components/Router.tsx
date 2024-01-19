@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./Layout";
 import Home from "./Home";
 import QuemSomos from "./QuemSomos";
-import Institucional from "./Institucional";
+import ComoParticipar from "./ComoParticipar";
 import ComoAjudar from "./ComoAjudar";
 import Patrocinadores from "./Patrocinadores";
 import Contato from "./Contato";
@@ -22,8 +22,8 @@ const Router = () => {
           element: <QuemSomos />,
         },
         {
-          path: "institucional",
-          element: <Institucional />,
+          path: "participar",
+          element: <ComoParticipar />,
         },
         {
           path: "ajudar",
