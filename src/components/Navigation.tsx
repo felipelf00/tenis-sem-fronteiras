@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import NavLinks from "./NavLinks";
 import Burger from "./Burger";
 import { useClickAway } from "react-use";
+import { AnimatePresence } from "framer-motion";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +39,15 @@ const Navigation = () => {
     <div>
       {isMobile && <Burger ref={hamburgerRef} toggleMenu={toggleMenu} isOpen={isOpen}/>}
 
-      {isMobile ? (isOpen && <NavLinks ref={navRef} />) : <NavLinks />}
+      {/* {isMobile ? (isOpen && <NavLinks ref={navRef} isOpen={isOpen} />) : <NavLinks isOpen={true} />} */}
+      {isMobile && (isOpen && 
+      
+      <AnimatePresence>
+        <NavLinks ref={navRef} isOpen={isOpen} />
+      </AnimatePresence>
+      )}
+
+      {!isMobile && <NavLinks isOpen={true} /> }
     </div>
   );
 };
