@@ -1,6 +1,4 @@
 // import pic10 from "../pictures/10.jpg";
-import ImageSlider from "./ImageSlider";
-import images from "../imageList.ts";
 import { Link } from "react-router-dom";
 import Title from "./Title.tsx";
 
@@ -31,16 +29,37 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-16 my-24 w-full overflow-hidden">
+      {/* <div className="flex justify-evenly gap-16 mt-20 w-full h-24 md:h-28 overflow-hidden"> */}
+      <div className="grid grid-cols-2 place-content-center place-items-center md:grid-cols-4 p-5 gap-16 my-20 w-full overflow-hidden">
         <img
           src="logo-ti.png"
-          alt="Loto Tênis Integrativo"
-          className="object-contain w-full h-auto max-w-full"
+          alt="Logo Tênis Integrativo"
+          className="object-contain max-w-full col-span-1 md:col-span-2 h-32"
         />
         <img
           src="logo-eco.png"
-          alt="Loto Eco Tênis"
-          className="object-contain w-full h-auto max-w-full"
+          alt="Logo Eco Tênis"
+          className="object-contain max-w-full col-span-1 md:col-span-2 h-32"
+        />
+        <img
+          src="celta.jpg"
+          alt="logo celta"
+          className="object-contain max-w-full col-span-1 row-start-2 h-24"
+        />
+        <img
+          src="cron.jpg"
+          alt="logo cron"
+          className="object-contain max-w-full col-span-1 row-start-2 h-24"
+        />
+        <img
+          src="jdl.png"
+          alt="logo JDL"
+          className="object-contain max-w-full col-span-1 row-start-3 md:row-start-2 h-24"
+        />
+        <img
+          src="wg.jpg"
+          alt="logo WG"
+          className="object-contain max-w-full col-span-1 row-start-3 md:row-start-2 h-24"
         />
       </div>
 
@@ -62,7 +81,9 @@ const Home = () => {
             relacionamento e formação de amigos.
           </p>
           <div>
-            <h3 className="font-bold text-xl md:pl-20 mb-2">Benefícios:</h3>
+            <h3 className="font-bold text-xl pl-5 md:pl-20 mb-2">
+              Benefícios:
+            </h3>
             <ul className="md:pl-[100px] list-disc">
               <li>Desenvolvimento físico e motor</li>
               <li>Melhora da autoestima através da competência esportiva</li>
@@ -74,7 +95,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <ImageSlider images={images} />
     </main>
   );
 };
