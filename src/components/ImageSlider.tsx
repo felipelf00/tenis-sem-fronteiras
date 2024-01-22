@@ -30,14 +30,14 @@ const ImageSlider: React.FC<ImageSliderProps> = ({ images }) => {
   }, [currentIndex]);
 
   return (
-    <div className="w-full h-full max-w-5xl m-auto relative">
+    <div className="w-[660px] h-[440px] max-w-4xl mx-auto my-12 relative rounded-lg overflow-hidden shadow">
       <button
         className="absolute h-full top-0 left-0 z-50 text-3xl font-bold text-white hover:bg-black/50 p-4"
         onClick={prevSlide}
       >
         &lt;
       </button>
-      <div className="flex items-center overflow-hidden max-w-5xl max-h-[682px] relative z-10">
+      <div className="flex items-center overflow-hidden w-full h-full relative z-10">
         {images.map((image) => (
           <img
             className={`object-cover w-full h-full block shrink-0 grow-0 transition-translate duration-300 ease-in-out`}

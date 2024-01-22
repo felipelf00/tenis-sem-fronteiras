@@ -4,7 +4,7 @@ import Title from "./Title.tsx";
 
 const Home = () => {
   return (
-    <main className="w-full max-w-7xl m-auto">
+    <main className="w-full h-full max-w-7xl m-auto">
       <div className="flex flex-col md:flex-row mb-12">
         <img
           src="/pictures/17.jpg"
