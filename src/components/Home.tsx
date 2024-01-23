@@ -84,7 +84,7 @@ const Home = () => {
             <h3 className="font-bold text-xl pl-5 md:pl-20 mb-2">
               Benefícios:
             </h3>
-            <ul className="md:pl-[100px] list-disc">
+            <ul className="pl-5 md:pl-[100px] list-disc">
               <li>Desenvolvimento físico e motor</li>
               <li>Melhora da autoestima através da competência esportiva</li>
               <li>Ocupação do tempo ocioso</li>

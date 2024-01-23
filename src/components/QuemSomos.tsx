@@ -45,8 +45,8 @@ const QuemSomos = () => {
       </div>
       <ImageSlider images={images} />
       <div className="p-5">
-        <Title>METODOLOGIA</Title>
-        <div className="md:p-20">
+        <Title size="m">METODOLOGIA</Title>
+        <div className="py-5 md:p-20">
           <p className="indent-8">
             Para o início do projeto foram selecionadas duas escolas da rede
             pública de ensino do bairro Vila Guaíra, utilizando o critério de
@@ -63,7 +63,7 @@ const QuemSomos = () => {
           </p>
           <br />
 
-          <ul className="md:pl-[100px] list-disc">
+          <ul className="pl-5 md:pl-[100px] list-disc">
             <li>
               5/6 anos – bola vermelha (bolas 75% mais lentas e quadras de 12m x
               6m);
