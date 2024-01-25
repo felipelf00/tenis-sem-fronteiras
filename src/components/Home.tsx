@@ -42,7 +42,6 @@ const Sponsors = () => {
     <motion.div
       style={{
         scale: transformedProgress,
-        // x: transformedProgress,
         opacity: scrollYProgress,
       }}
       ref={ref}
@@ -86,7 +85,7 @@ const Tenis = () => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1 1"],
+    offset: ["0 1", "0.5 1"],
   });
   const transformedProgress = useTransform(scrollYProgress, [0, 1], [-200, 0]);
 
@@ -221,7 +220,7 @@ const Locais = () => {
 
 const Home = () => {
   return (
-    <main className="w-full h-full max-w-7xl m-auto">
+    <main className="w-full h-full max-w-7xl m-auto overflow-x-hidden">
       <Hero />
       <Sponsors />
       <Tenis />

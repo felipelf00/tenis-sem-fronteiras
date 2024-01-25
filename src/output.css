@@ -606,12 +606,40 @@ video {
   grid-column: span 1 / span 1;
 }
 
+.col-start-1{
+  grid-column-start: 1;
+}
+
+.col-start-2{
+  grid-column-start: 2;
+}
+
+.col-end-2{
+  grid-column-end: 2;
+}
+
+.row-span-1{
+  grid-row: span 1 / span 1;
+}
+
+.row-start-1{
+  grid-row-start: 1;
+}
+
 .row-start-2{
   grid-row-start: 2;
 }
 
 .row-start-3{
   grid-row-start: 3;
+}
+
+.row-start-4{
+  grid-row-start: 4;
+}
+
+.row-start-5{
+  grid-row-start: 5;
 }
 
 .m-auto{
@@ -633,11 +661,6 @@ video {
   margin-bottom: 5rem;
 }
 
-.my-32{
-  margin-top: 8rem;
-  margin-bottom: 8rem;
-}
-
 .mb-12{
   margin-bottom: 3rem;
 }
@@ -648,10 +671,6 @@ video {
 
 .mt-10{
   margin-top: 2.5rem;
-}
-
-.mt-20{
-  margin-top: 5rem;
 }
 
 .mt-8{
@@ -686,16 +705,16 @@ video {
   height: 1.5rem;
 }
 
+.h-80{
+  height: 20rem;
+}
+
 .h-96{
   height: 24rem;
 }
 
 .h-full{
   height: 100%;
-}
-
-.h-80{
-  height: 20rem;
 }
 
 .max-h-full{
@@ -778,10 +797,6 @@ video {
   justify-content: space-between;
 }
 
-.justify-evenly{
-  justify-content: space-evenly;
-}
-
 .gap-10{
   gap: 2.5rem;
 }
@@ -798,8 +813,16 @@ video {
   gap: 1.25rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
 .overflow-hidden{
   overflow: hidden;
+}
+
+.overflow-x-hidden{
+  overflow-x: hidden;
 }
 
 .rounded-lg{
@@ -808,18 +831,6 @@ video {
 
 .rounded-xl{
   border-radius: 0.75rem;
-}
-
-.rounded{
-  border-radius: 0.25rem;
-}
-
-.rounded-sm{
-  border-radius: 0.125rem;
-}
-
-.border{
-  border-width: 1px;
 }
 
 .bg-blue-tsf{
@@ -1019,20 +1030,16 @@ body {
     display: none;
   }
 
-  .md\:h-28{
-    height: 7rem;
-  }
-
   .md\:h-\[440px\]{
     height: 440px;
   }
 
-  .md\:h-\[500px\]{
-    height: 500px;
-  }
-
   .md\:h-\[450px\]{
     height: 450px;
+  }
+
+  .md\:h-\[500px\]{
+    height: 500px;
   }
 
   .md\:w-5\/12{
@@ -1043,12 +1050,12 @@ body {
     width: 58.333333%;
   }
 
-  .md\:w-\[660px\]{
-    width: 660px;
-  }
-
   .md\:w-\[600px\]{
     width: 600px;
+  }
+
+  .md\:w-\[660px\]{
+    width: 660px;
   }
 
   .md\:grid-cols-4{
@@ -1073,6 +1080,11 @@ body {
 
   .md\:pl-\[100px\]{
     padding-left: 100px;
+  }
+
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-5xl{
