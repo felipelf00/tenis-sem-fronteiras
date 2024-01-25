@@ -48,10 +48,9 @@ const QuemSomos = () => {
         <Title size="m">METODOLOGIA</Title>
         <div className="py-5 md:p-20">
           <p className="indent-8">
-            Para o início do projeto foram selecionadas duas escolas da rede
-            pública de ensino do bairro Vila Guaíra, utilizando o critério de
-            proximidade ao local da realização do projeto (Academia Curitiba
-            Tennis Center – CTC).
+            Para o início do projeto foram selecionadas escolas da rede pública
+            de ensino, utilizando o critério de proximidade ao local da
+            realização do projeto.
           </p>
           <br />
           <p className="indent-8">
