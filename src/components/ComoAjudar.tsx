@@ -1,5 +1,9 @@
 const ComoAjudar = () => {
-  return <main className="w-full max-w-7xl m-auto">Como ajudar</main>;
+  return (
+    <main className="min-h-screen flex items-center justify-center">
+      <h1 className="text-4xl">Em breve!</h1>
+    </main>
+  );
 };
 
 export default ComoAjudar;

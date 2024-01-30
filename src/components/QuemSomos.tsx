@@ -151,8 +151,10 @@ const Equipe = () => {
         </p>
         <br />
         <p className="md:pl-20 indent-8">
-          Além disso integram também o projeto os professores ??????????????? e
-          ???????????????, ambos com formação em Educação Física*.
+          Além disso integram também o projeto os professores Mauricio Negoseki
+          Da Silva, graduado em Educação Física pela Unicesumar e Fabrycio
+          Watrich, estudante de Educação Física na Universidade Positivo. Ambos
+          são professores certificados pela Confederação Brasileira de Tênis.
         </p>
       </div>
     </motion.div>
