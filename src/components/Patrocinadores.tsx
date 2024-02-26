@@ -8,16 +8,16 @@ const Patrocinadores = () => {
           <Title>NOSSOS PARCEIROS</Title>
         </div>
         <div className="grid grid-cols-2 place-items-center place-content-center gap-8">
-          <div className="h-32 col-start-1 col-end-2 flex items-center">
-            {/* <a href="https://celtacontainers.com.br/" target="_blank"> */}
-            <img src="celta.jpg" alt="logo Celta" className="max-h-full" />
-            {/* </a> */}
-          </div>
-          <div className="h-32 col-start-1 col-end-2 flex items-center">
-            {/* <a href="https://www.cronengenharia.com.br/" target="_blank"> */}
-            <img src="cron.jpg" alt="logo Cron" className="max-h-full" />
-            {/* </a> */}
-          </div>
+          {/* <div className="h-32 col-start-1 col-end-2 flex items-center"> */}
+          {/* <a href="https://celtacontainers.com.br/" target="_blank"> */}
+          {/* <img src="celta.jpg" alt="logo Celta" className="max-h-full" /> */}
+          {/* </a> */}
+          {/* </div> */}
+          {/* <div className="h-32 col-start-1 col-end-2 flex items-center"> */}
+          {/* <a href="https://www.cronengenharia.com.br/" target="_blank"> */}
+          {/* <img src="cron.jpg" alt="logo Cron" className="max-h-full" /> */}
+          {/* </a> */}
+          {/* </div> */}
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             {/* <a href="https://www.instagram.com/ecotenisclube/" target="_blank"> */}
             <img
@@ -41,7 +41,7 @@ const Patrocinadores = () => {
               className="max-h-full"
             />
           </div>
-          <a
+          {/* <a
             href="https://celtacontainers.com.br/"
             target="_blank"
             className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-1 row-span-1 hover:text-yellow-tsf transition"
@@ -54,25 +54,25 @@ const Patrocinadores = () => {
             className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-2 row-span-1 hover:text-yellow-tsf transition"
           >
             Cron Engenharia Construtiva
-          </a>
+          </a> */}
           <a
             href="https://www.instagram.com/ecotenisclube/"
             target="_blank"
-            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-3 row-span-1 hover:text-yellow-tsf transition"
+            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-1 row-span-1 hover:text-yellow-tsf transition"
           >
             Eco Tênis Academia
           </a>
           <a
             href="#"
             target="_blank"
-            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-4 row-span-1 hover:text-yellow-tsf transition"
+            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-2 row-span-1 hover:text-yellow-tsf transition"
           >
             JDL Locações de Bens
           </a>
           <a
             href="#"
             target="_blank"
-            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-5 row-span-1 hover:text-yellow-tsf transition"
+            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-3 row-span-1 hover:text-yellow-tsf transition"
           >
             WG Critical Care
           </a>

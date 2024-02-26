@@ -17,12 +17,12 @@ const Hero = () => {
           O projeto Tênis Sem Fronteiras foi criado pela{" "}
           <span className="font-bold">Academia Tênis Integrativo</span> em
           parceria com a <span className="font-bold">Eco Tênis Academia</span> e
-          visa proporcional uma atividade saudável e educativa para crianças da
+          visa proporcionar uma atividade saudável e educativa para crianças da
           rede pública de ensino através de aulas de tênis
         </div>
         <Link
           to={"/participar"}
-          className="bg-yellow-tsf text-white mx-auto text-lg font-bold rounded-xl p-3 hover:text-slate-700 transition shadow-md"
+          className="bg-yellow-tsf text-white animate-ping-small mx-auto text-lg font-bold rounded-xl p-3 hover:text-slate-700 transition shadow-md"
         >
           Como participar?
         </Link>
@@ -50,14 +50,15 @@ const Sponsors = () => {
       <img
         src="logo-ti.png"
         alt="Logo Tênis Integrativo"
-        className="object-contain max-w-full col-span-1 md:col-span-2 h-32"
+        className="object-contain max-w-full col-span-1 h-32"
       />
       <img
         src="logo-eco.png"
         alt="Logo Eco Tênis"
-        className="object-contain max-w-full col-span-1 md:col-span-2 h-32"
+        className="object-contain max-w-full col-span-1 h-32"
       />
-      <img
+      {/* REMOVIDOS */}
+      {/* <img
         src="celta.jpg"
         alt="logo celta"
         className="object-contain max-w-full col-span-1 row-start-2 h-24"
@@ -66,16 +67,18 @@ const Sponsors = () => {
         src="cron.jpg"
         alt="logo cron"
         className="object-contain max-w-full col-span-1 row-start-2 h-24"
-      />
+      /> */}
+      {/* TEMPORARIAMENTE REDIMENSIONADOS (era h-24, troca de linha), AGUARDAR
+      CONFIRMAÇÃO DE OUTROS PATROCINADORES */}
       <img
         src="jdl.png"
         alt="logo JDL"
-        className="object-contain max-w-full col-span-1 row-start-3 md:row-start-2 h-24"
+        className="object-contain max-w-full col-span-1 h-32"
       />
       <img
         src="wg.jpg"
         alt="logo WG"
-        className="object-contain max-w-full col-span-1 row-start-3 md:row-start-2 h-24"
+        className="object-contain max-w-full col-span-1 h-32"
       />
     </motion.div>
   );
@@ -159,7 +162,7 @@ const Metodo = () => {
             Turmas com até 6 crianças divididas por faixa-etária: 5 a 6 anos, 7
             a 8 anos, 9 a 10 anos
           </li>
-          <li>Processo seletivo (habilidade motora e vontade)</li>
+          <li>Processo seletivo para crianças da rede pública de ensino</li>
           <li>Frequência de uma vez na semana</li>
           <li>
             Método <span className="italic">Play and Stay</span>, desenvolvido
@@ -199,11 +202,7 @@ const Locais = () => {
         />
       </div>
       <div className="md:w-5/12 flex flex-col justify-center gap-10 p-5">
-        <Title>LOCAIS</Title>
-        <p className="md:pl-20">
-          <span className="font-bold">Coordenação</span>: Tênis Integrativo –
-          Eduardo Figueiredo
-        </p>
+        <Title>LOCAL</Title>
         <div>
           <p className="md:pl-20 font-bold">Eco Tênis Academia</p>
           <p className="md:pl-20">
@@ -213,6 +212,10 @@ const Locais = () => {
             Telefones: (41) 99131-9654 – (41) 98807-4002
           </p>
         </div>
+        <p className="md:pl-20">
+          <span className="font-bold">Coordenação</span>: Tênis Integrativo –
+          Eduardo Figueiredo
+        </p>
       </div>
     </motion.div>
   );
