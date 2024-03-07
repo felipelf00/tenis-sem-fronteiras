@@ -45,7 +45,7 @@ const Sponsors = () => {
         opacity: scrollYProgress,
       }}
       ref={ref}
-      className="grid grid-cols-2 place-content-center place-items-center md:grid-cols-4 p-5 gap-16 my-20 w-full overflow-hidden"
+      className="grid grid-cols-2 place-content-center place-items-center md:grid-cols-5 p-5 gap-16 my-20 w-full overflow-hidden"
     >
       <img
         src="logo-ti.png"
@@ -55,6 +55,11 @@ const Sponsors = () => {
       <img
         src="logo-eco.png"
         alt="Logo Eco Tênis"
+        className="object-contain max-w-full col-span-1 h-32"
+      />
+      <img
+        src="anteus.png"
+        alt="Logo Anteus"
         className="object-contain max-w-full col-span-1 h-32"
       />
       {/* REMOVIDOS */}

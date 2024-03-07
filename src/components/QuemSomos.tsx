@@ -13,7 +13,9 @@ const Quem = () => {
         className="md:w-5/12 block m-auto p-10 h-96 w-auto"
       />
       <div className="md:w-7/12 order-first flex flex-col justify-center gap-10 p-5">
-        <Title>QUEM SOMOS</Title>
+        <div className="mt-12">
+          <Title>QUEM SOMOS</Title>
+        </div>
         <div className="md:pl-20">
           <p className="indent-8">
             O projeto Tênis Sem Fronteiras tem o objetivo de, por meio do
