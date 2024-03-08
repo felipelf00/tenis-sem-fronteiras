@@ -22,9 +22,15 @@ const Hero = () => {
         </div>
         <Link
           to={"/participar"}
-          className="bg-yellow-tsf text-white animate-ping-small mx-auto text-lg font-bold rounded-xl p-3 hover:text-slate-700 transition shadow-md"
+          className="bg-yellow-tsf text-white w-48 text-center animate-ping-small mx-auto text-lg font-bold rounded-xl p-3 hover:text-slate-700 transition shadow-md"
         >
           Como participar?
+        </Link>
+        <Link
+          to={"/ajudar"}
+          className="bg-blue-tsf text-white w-48 text-center animate-ping-small mx-auto text-lg font-bold rounded-xl p-3 hover:text-slate-700 transition shadow-md"
+        >
+          Como ajudar?
         </Link>
       </div>
     </div>
