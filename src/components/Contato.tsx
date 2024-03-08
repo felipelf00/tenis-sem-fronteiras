@@ -7,7 +7,7 @@ const Contato = () => {
         <div className="my-12">
           <Title>CONTATO</Title>
         </div>
-        <div className="text-2xl flex items-center gap-4 mb-10">
+        <div className="text-lg md:text-2xl flex items-center gap-4 mb-10">
           <strong>Telefone: </strong>(41) 98807-4002
           <a href="https://wa.me/5541988074002" target="_blank">
             <img src="whatsapp.png" className="h-12 inline" />

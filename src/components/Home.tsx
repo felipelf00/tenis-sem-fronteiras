@@ -50,7 +50,7 @@ const Sponsors = () => {
       <img
         src="logo-ti.png"
         alt="Logo Tênis Integrativo"
-        className="object-contain max-w-full col-span-1 h-32"
+        className="object-contain max-w-full col-span-2 md:col-span-1 h-32"
       />
       <img
         src="logo-eco.png"
