@@ -51,45 +51,42 @@ const Sponsors = () => {
         opacity: scrollYProgress,
       }}
       ref={ref}
-      className="grid grid-cols-2 place-content-center place-items-center md:grid-cols-5 p-5 gap-16 my-20 w-full overflow-hidden"
+      className="grid grid-cols-2 place-content-center place-items-center md:grid-cols-12 p-5 gap-16 my-20 w-full overflow-hidden"
     >
       <img
         src="logo-ti.png"
         alt="Logo Tênis Integrativo"
-        className="object-contain max-w-full col-span-2 md:col-span-1 h-32"
+        className="object-contain max-w-40 md:max-w-56 col-span-2 md:col-start-1 md:col-span-4 h-32"
       />
       <img
         src="logo-eco.png"
         alt="Logo Eco Tênis"
-        className="object-contain max-w-full col-span-1 h-32"
+        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-5 md:col-span-4 h-32 "
       />
       <img
         src="anteus.png"
         alt="Logo Anteus"
-        className="object-contain max-w-full col-span-1 h-32"
+        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-9 md:col-span-4 h-32"
       />
-      {/* REMOVIDOS */}
-      {/* <img
-        src="celta.jpg"
-        alt="logo celta"
-        className="object-contain max-w-full col-span-1 row-start-2 h-24"
-      />
-      <img
-        src="cron.jpg"
-        alt="logo cron"
-        className="object-contain max-w-full col-span-1 row-start-2 h-24"
-      /> */}
-      {/* TEMPORARIAMENTE REDIMENSIONADOS (era h-24, troca de linha), AGUARDAR
-      CONFIRMAÇÃO DE OUTROS PATROCINADORES */}
       <img
         src="jdl.png"
         alt="logo JDL"
-        className="object-contain max-w-full col-span-1 h-32"
+        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-1 md:col-span-3 h-32"
+      />
+      <img
+        src="masterkraft.png"
+        alt="logo Masterkraft"
+        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-4 md:col-span-3 h-32"
+      />
+      <img
+        src="timbu.png"
+        alt="logo Timbu"
+        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-7 md:col-span-3 h-32"
       />
       <img
         src="wg.jpg"
         alt="logo WG"
-        className="object-contain max-w-full col-span-1 h-32"
+        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-10 md:col-span-3 h-32"
       />
     </motion.div>
   );
@@ -99,7 +96,7 @@ const Tenis = () => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "0.5 1"],
+    offset: ["0 1", "0.25 1"],
   });
   const transformedProgress = useTransform(scrollYProgress, [0, 1], [-200, 0]);
 
@@ -148,7 +145,7 @@ const Metodo = () => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1 1"],
+    offset: ["0 1", "0.4 1"],
   });
   const transformedProgress = useTransform(scrollYProgress, [0, 1], [200, 0]);
 
@@ -190,7 +187,7 @@ const Locais = () => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "1 1"],
+    offset: ["0 1", "0.4 1"],
   });
   const transformedProgress = useTransform(scrollYProgress, [0, 1], [-200, 0]);
 

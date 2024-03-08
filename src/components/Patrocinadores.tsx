@@ -7,17 +7,8 @@ const Patrocinadores = () => {
         <div className="my-12">
           <Title>NOSSOS PARCEIROS</Title>
         </div>
+        {/* Logos */}
         <div className="grid grid-cols-2 place-items-center place-content-center gap-8">
-          {/* <div className="h-32 col-start-1 col-end-2 flex items-center"> */}
-          {/* <a href="https://celtacontainers.com.br/" target="_blank"> */}
-          {/* <img src="celta.jpg" alt="logo Celta" className="max-h-full" /> */}
-          {/* </a> */}
-          {/* </div> */}
-          {/* <div className="h-32 col-start-1 col-end-2 flex items-center"> */}
-          {/* <a href="https://www.cronengenharia.com.br/" target="_blank"> */}
-          {/* <img src="cron.jpg" alt="logo Cron" className="max-h-full" /> */}
-          {/* </a> */}
-          {/* </div> */}
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
               src="anteus.png"
@@ -41,25 +32,26 @@ const Patrocinadores = () => {
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
+              src="masterkraft.png"
+              alt="Masterkraft Embalagens"
+              className="max-h-full max-w-60"
+            />
+          </div>
+          <div className="h-32 col-start-1 col-end-2 flex items-center">
+            <img
+              src="timbu.png"
+              alt="Água Mineral Timbu"
+              className="max-h-full max-w-48"
+            />
+          </div>
+          <div className="h-32 col-start-1 col-end-2 flex items-center">
+            <img
               src="wg.jpg"
               alt="logo WG Critical Care"
               className="max-h-full"
             />
           </div>
-          {/* <a
-            href="https://celtacontainers.com.br/"
-            target="_blank"
-            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-1 row-span-1 hover:text-yellow-tsf transition"
-          >
-            Celta Containers
-          </a>
-          <a
-            href="https://www.cronengenharia.com.br/"
-            target="_blank"
-            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-2 row-span-1 hover:text-yellow-tsf transition"
-          >
-            Cron Engenharia Construtiva
-          </a> */}
+          {/* Links */}
           <a
             href="https://www.anteus.com.br/"
             target="_blank"
@@ -82,9 +74,23 @@ const Patrocinadores = () => {
             JDL Locações de Bens
           </a>
           <a
-            href="#"
+            href="https://www.masterkraft.com.br/"
             target="_blank"
             className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-4 row-span-1 hover:text-yellow-tsf transition"
+          >
+            Masterkraft Soluções em Embalagens
+          </a>
+          <a
+            href="https://www.aguatimbu.com.br/"
+            target="_blank"
+            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-5 row-span-1 hover:text-yellow-tsf transition"
+          >
+            Água Mineral Timbu
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-6 row-span-1 hover:text-yellow-tsf transition"
           >
             WG Critical Care
           </a>

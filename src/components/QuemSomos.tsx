@@ -53,7 +53,7 @@ const Metodologia = () => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "0.5 1"],
+    offset: ["0 1", "0.3 1"],
   });
   const transformedProgress = useTransform(scrollYProgress, [0, 1], [-200, 0]);
 
@@ -104,13 +104,13 @@ const Metodologia = () => {
         </p>
         <br />
         <p className="indent-8">
-          As aulas do projeto serão desenvolvidas através do método Play and
-          Stay da Federação Internacional de Tênis (ITF), que possibilita que a
-          criança consiga jogar desde a primeira aula. O lema é “saque, troque
-          bolas e pontue”. Com materiais adaptados (bolas mais lentas, raquetes
-          de cabo curto e leves e quadras menores) a criança consegue realizar
-          as atividades desde a primeira aula, sentindo-se capaz e motivada a
-          continuar no esporte.
+          As aulas do projeto serão desenvolvidas através do método{" "}
+          <em>Play and Stay</em> da Federação Internacional de Tênis (ITF), que
+          possibilita que a criança consiga jogar desde a primeira aula. O lema
+          é “saque, troque bolas e pontue”. Com materiais adaptados (bolas mais
+          lentas, raquetes de cabo curto e leves e quadras menores) a criança
+          consegue realizar as atividades desde a primeira aula, sentindo-se
+          capaz e motivada a continuar no esporte.
         </p>
       </div>
     </motion.div>
@@ -121,7 +121,7 @@ const Equipe = () => {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
-    offset: ["0 1", "0.7 1"],
+    offset: ["0 1", "0.3 1"],
   });
   const transformedProgress = useTransform(scrollYProgress, [0, 1], [200, 0]);
 
@@ -144,19 +144,21 @@ const Equipe = () => {
       <div className="md:w-7/12 p-5">
         <Title>EQUIPE</Title>
         <p className="md:pl-20 mt-8 indent-8">
-          O projeto é coordenado pelo prof. Eduardo Carlos Gonçalves Figueiredo,
-          formado em Educação Física pela UFPR, pós-graduado em Fisiologia do
-          Exercício pela PUC-PR e em Exercício e Saúde pela UFPR, mestre em
-          Educação Física pela UFPR na área de Psicologia do Esporte, Técnico
-          Master da CBT, níveis 1 e 2 da ITF e licença A, B e C da Confederação
-          Alemã de Tênis, ex-jogador e professor desde 1979.
+          O projeto é coordenado pelo prof.{" "}
+          <strong>Eduardo Carlos Gonçalves Figueiredo</strong>, formado em
+          Educação Física pela UFPR, pós-graduado em Fisiologia do Exercício
+          pela PUC-PR e em Exercício e Saúde pela UFPR, mestre em Educação
+          Física pela UFPR na área de Psicologia do Esporte, Técnico Master da
+          CBT, níveis 1 e 2 da ITF e licença A, B e C da Confederação Alemã de
+          Tênis, ex-jogador e professor desde 1979.
         </p>
         <br />
         <p className="md:pl-20 indent-8">
-          Além disso integram também o projeto os professores Mauricio Negoseki
-          Da Silva, graduado em Educação Física pela Unicesumar e Fabrycio
-          Watrich, estudante de Educação Física na Universidade Positivo. Ambos
-          são professores certificados pela Confederação Brasileira de Tênis.
+          Além disso integram também o projeto os professores{" "}
+          <strong>Mauricio Negoseki Da Silva</strong>, graduado em Educação
+          Física pela Unicesumar e <strong>Fabrycio Watrich</strong>, estudante
+          de Educação Física na Universidade Positivo. Ambos são professores
+          certificados pela Confederação Brasileira de Tênis.
         </p>
       </div>
     </motion.div>
