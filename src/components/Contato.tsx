@@ -7,10 +7,16 @@ const Contato = () => {
         <div className="my-12">
           <Title>CONTATO</Title>
         </div>
-        <p>Preencha seus dados e nós entraremos em contato.</p>
+        <div className="text-2xl flex items-center gap-4 mb-10">
+          <strong>Telefone: </strong>(41) 98807-4002
+          <a href="https://wa.me/5541988074002" target="_blank">
+            <img src="whatsapp.png" className="h-12 inline" />
+          </a>
+        </div>
+        <p>Se preferir, preencha seus dados e nós entraremos em contato:</p>
 
         <form
-          className="contact-form flex flex-col my-8"
+          className="contact-form flex flex-col my-4"
           action="https://formsubmit.co/tenissemfronteiras@gmail.com"
           method="POST"
         >
