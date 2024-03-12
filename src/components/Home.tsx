@@ -69,14 +69,14 @@ const Sponsors = () => {
         className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-9 md:col-span-4 h-32"
       />
       <img
-        src="jdl.png"
-        alt="logo JDL"
-        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-1 md:col-span-3 h-32"
-      />
-      <img
         src="masterkraft.png"
         alt="logo Masterkraft"
         className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-4 md:col-span-3 h-32"
+      />
+      <img
+        src="logo-seguru.jpg"
+        alt="logo Seguru Certo"
+        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-1 md:col-span-3 h-32"
       />
       <img
         src="timbu.png"

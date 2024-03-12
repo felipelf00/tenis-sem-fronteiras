@@ -25,16 +25,16 @@ const Patrocinadores = () => {
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
-              src="jdl.png"
-              alt="logo JDL Locações de Bens"
-              className="max-h-full"
+              src="masterkraft.png"
+              alt="Masterkraft Embalagens"
+              className="max-h-full max-w-60"
             />
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
-              src="masterkraft.png"
-              alt="Masterkraft Embalagens"
-              className="max-h-full max-w-60"
+              src="logo-seguru.jpg"
+              alt="logo Seguru Certo"
+              className="max-h-full"
             />
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
@@ -67,18 +67,18 @@ const Patrocinadores = () => {
             Eco Tênis Academia
           </a>
           <a
-            href="#"
+            href="https://www.masterkraft.com.br/"
             target="_blank"
             className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-3 row-span-1 hover:text-yellow-tsf transition"
           >
-            JDL Locações de Bens
+            Masterkraft Soluções em Embalagens
           </a>
           <a
-            href="https://www.masterkraft.com.br/"
+            href="#"
             target="_blank"
             className="text-xl md:text-2xl font-bold col-start-2 col-span-1 row-start-4 row-span-1 hover:text-yellow-tsf transition"
           >
-            Masterkraft Soluções em Embalagens
+            Seguru Certo Corretora de Seguros
           </a>
           <a
             href="https://www.aguatimbu.com.br/"

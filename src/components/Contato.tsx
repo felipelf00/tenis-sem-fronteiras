@@ -17,7 +17,7 @@ const Contato = () => {
 
         <form
           className="contact-form flex flex-col my-4"
-          action="https://formsubmit.co/tenissemfronteiras@gmail.com"
+          action="https://formsubmit.co/2dfeb9f5e70934193b23681d9161f2be"
           method="POST"
         >
           <label htmlFor="name" className="block my-2 font-bold">

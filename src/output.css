@@ -784,6 +784,10 @@ video {
   width: 100%;
 }
 
+.max-w-40{
+  max-width: 10rem;
+}
+
 .max-w-48{
   max-width: 12rem;
 }
@@ -802,18 +806,6 @@ video {
 
 .max-w-7xl{
   max-width: 80rem;
-}
-
-.max-w-full{
-  max-width: 100%;
-}
-
-.max-w-56{
-  max-width: 14rem;
-}
-
-.max-w-40{
-  max-width: 10rem;
 }
 
 .shrink-0{
