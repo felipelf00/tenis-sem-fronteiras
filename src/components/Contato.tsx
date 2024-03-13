@@ -58,7 +58,6 @@ const Contato = () => {
             rows={5}
             id="message"
             name="message"
-            placeholder="Sua mensagem"
             required
           />
           <button
