@@ -8,25 +8,6 @@ const ComoAjudar = () => {
         <div className="my-12">
           <Title>COMO AJUDAR</Title>
         </div>
-        {/* <p>Esta área do site está em construção.</p>
-        <br />
-        <p>
-          Para mais informações, entre em{" "}
-          <Link
-            className="font-semibold text-blue-tsf hover:text-yellow-tsf transition"
-            to="/contato"
-          >
-            contato
-          </Link>{" "}
-          ou acesse o nosso{" "}
-          <Link
-            className="font-semibold text-blue-tsf hover:text-yellow-tsf transition"
-            to="http://campanhadobem.com/tenis-sem-fronteiras-educacao-e-inclusao-social-atraves-do-tenis"
-          >
-            financiamento coletivo
-          </Link>
-          .
-        </p> */}
         <div className="flex flex-col-reverse md:flex-row gap-4">
           <div className="md:w-1/2">
             <p>
