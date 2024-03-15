@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Title from "./Title.tsx";
 
 const ComoParticipar = () => {
@@ -25,12 +24,13 @@ const ComoParticipar = () => {
               material para as aulas será fornecido pelo projeto.
             </p>
             <div className="flex flex-col md:flex-row my-10 gap-6 justify-around items-center">
-              <Link
-                to="https://forms.office.com/r/HwnnnRaBtd"
+              <a
+                href="https://forms.office.com/r/HwnnnRaBtd"
                 className="bg-yellow-tsf text-white w-48 text-center text-lg font-bold rounded-xl p-3 hover:text-slate-700 transition shadow-md"
+                target="_blank"
               >
                 Inscrições
-              </Link>
+              </a>
               <img src="/qr-code.png" className="max-w-56" />
             </div>
           </div>
