@@ -56,27 +56,32 @@ const Sponsors = () => {
       <img
         src="logo-ti.png"
         alt="Logo Tênis Integrativo"
-        className="object-contain max-w-40 md:max-w-56 col-span-2 md:col-start-1 md:col-span-4 h-32"
-      />
-      <img
-        src="logo-eco.png"
-        alt="Logo Eco Tênis"
-        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-5 md:col-span-4 h-32 "
+        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-1 md:col-span-3 h-32"
       />
       <img
         src="anteus.png"
         alt="Logo Anteus"
-        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-9 md:col-span-4 h-32"
+        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-4 md:col-span-3 h-32"
+      />
+      <img
+        src="logo-cabral.jpg"
+        alt="Logo Cabral"
+        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-7 md:col-span-3 h-32 "
+      />
+      <img
+        src="logo-eco.png"
+        alt="Logo Eco Tênis"
+        className="object-contain max-w-40 md:max-w-56 col-span-1 md:col-start-10 md:col-span-3 h-32 "
       />
       <img
         src="masterkraft.png"
         alt="logo Masterkraft"
-        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-4 md:col-span-3 h-32"
+        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-1 md:col-span-3 h-32"
       />
       <img
         src="logo-seguru.jpg"
         alt="logo Seguru Certo"
-        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-1 md:col-span-3 h-32"
+        className="object-contain max-w-40 md:max-w-56 md:row-start-2 col-span-1 md:col-start-4 md:col-span-3 h-32"
       />
       <img
         src="timbu.png"
