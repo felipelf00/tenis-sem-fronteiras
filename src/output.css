@@ -606,10 +606,6 @@ video {
   grid-column: span 1 / span 1;
 }
 
-.col-span-2{
-  grid-column: span 2 / span 2;
-}
-
 .col-start-1{
   grid-column-start: 1;
 }
@@ -650,6 +646,10 @@ video {
   grid-row-start: 6;
 }
 
+.row-start-7{
+  grid-row-start: 7;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -657,6 +657,11 @@ video {
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-10{
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-12{
@@ -682,11 +687,6 @@ video {
 .my-8{
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-10{
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .mb-10{
@@ -789,40 +789,28 @@ video {
   width: 100%;
 }
 
-.max-w-40{
-  max-width: 10rem;
+.max-w-36{
+  max-width: 9rem;
 }
 
-.max-w-48{
-  max-width: 12rem;
+.max-w-40{
+  max-width: 10rem;
 }
 
 .max-w-4xl{
   max-width: 56rem;
 }
 
+.max-w-56{
+  max-width: 14rem;
+}
+
 .max-w-5xl{
   max-width: 64rem;
 }
 
-.max-w-60{
-  max-width: 15rem;
-}
-
 .max-w-7xl{
   max-width: 80rem;
-}
-
-.max-w-44{
-  max-width: 11rem;
-}
-
-.max-w-64{
-  max-width: 16rem;
-}
-
-.max-w-56{
-  max-width: 14rem;
 }
 
 .shrink-0{
@@ -929,12 +917,12 @@ video {
   gap: 1.25rem;
 }
 
-.gap-8{
-  gap: 2rem;
-}
-
 .gap-6{
   gap: 1.5rem;
+}
+
+.gap-8{
+  gap: 2rem;
 }
 
 .overflow-hidden{
@@ -1051,11 +1039,6 @@ video {
   line-height: 2.25rem;
 }
 
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -1168,10 +1151,6 @@ body {
     grid-column: span 3 / span 3;
   }
 
-  .md\:col-span-4{
-    grid-column: span 4 / span 4;
-  }
-
   .md\:col-start-1{
     grid-column-start: 1;
   }
@@ -1184,16 +1163,8 @@ body {
     grid-column-start: 4;
   }
 
-  .md\:col-start-5{
-    grid-column-start: 5;
-  }
-
   .md\:col-start-7{
     grid-column-start: 7;
-  }
-
-  .md\:col-start-9{
-    grid-column-start: 9;
   }
 
   .md\:row-start-2{
@@ -1245,8 +1216,16 @@ body {
     width: 690px;
   }
 
+  .md\:max-w-48{
+    max-width: 12rem;
+  }
+
   .md\:max-w-56{
     max-width: 14rem;
+  }
+
+  .md\:max-w-60{
+    max-width: 15rem;
   }
 
   .md\:grid-cols-12{

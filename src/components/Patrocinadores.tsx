@@ -13,49 +13,49 @@ const Patrocinadores = () => {
             <img
               src="anteus.png"
               alt="Anteus construtora e incorporadora"
-              className="max-h-full max-w-48"
+              className="max-h-full max-w-36 md:max-w-60"
             />
           </div>
-          <div className="h-32 max-w-60 col-start-1 col-end-2 flex items-center">
+          <div className="h-32  col-start-1 col-end-2 flex items-center">
             <img
               src="logo-cabral.jpg"
               alt="logo Cabral"
-              className="max-h-full"
+              className="max-h-full max-w-36 md:max-w-60"
             />
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
               src="logo-eco.png"
               alt="logo Eco Tênis"
-              className="max-h-full"
+              className="max-h-full max-w-36 md:max-w-60"
             />
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
               src="masterkraft.png"
               alt="Masterkraft Embalagens"
-              className="max-h-full max-w-60"
+              className="max-h-full max-w-36 md:max-w-60"
             />
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
               src="logo-seguru.jpg"
               alt="logo Seguru Certo"
-              className="max-h-full"
+              className="max-h-full max-w-36 md:max-w-60"
             />
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
               src="timbu.png"
               alt="Água Mineral Timbu"
-              className="max-h-full max-w-48"
+              className="max-h-full max-w-36 md:max-w-48"
             />
           </div>
           <div className="h-32 col-start-1 col-end-2 flex items-center">
             <img
               src="wg.jpg"
               alt="logo WG Critical Care"
-              className="max-h-full"
+              className="max-h-full max-w-36 md:max-w-60"
             />
           </div>
           {/* Links */}
